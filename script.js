@@ -22,8 +22,5 @@ function convertToRoman(num) {
   return result;
 }
 
-// console.log(convertToRoman(36));
-
-
-// do not edit below this line
-module.exports = convertToRoman
+// Export the function for use in another module
+module.exports = convertToRoman;
